@@ -1,0 +1,13 @@
+{
+    "name": "alligator_accounting_app",
+    "version": "1.0.0",
+    "description": "A Node app",
+    "author": "Mr Accountant <mr.accountant@example.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.0"
+    }
+  }
