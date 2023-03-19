@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 
-var html = "<h1>Final Alligator Accounting</h1>";
+var html = "<h1>Final Alligator Accounting!</h1>";
 
 if (process.env.RUNNING_ENV) {
   html = html + `<p>Running on ${process.env.RUNNING_ENV}`;
